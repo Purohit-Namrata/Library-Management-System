@@ -29,10 +29,10 @@ def viewbook():
     pass
 
 def clear():
-    b4.config(command=lambda:e1.delete(0,END))
-    b4.config(command=lambda:e2.delete(0,END))
-    b4.config(command=lambda:e3.delete(0,END))
-    b4.config(command=lambda:e4.delete(0,END))
+    b4.config(e1.delete(0,END))
+    b4.config(e2.delete(0,END))
+    b4.config(e3.delete(0,END))
+    b4.config(e4.delete(0,END))
 
 root=Tk()
 root.title("Library Management System")
