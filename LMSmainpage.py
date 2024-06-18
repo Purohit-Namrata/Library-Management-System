@@ -6,7 +6,7 @@ def addbook():
     info1=e1.get()
     info2=e2.get()
     info3=e3.get()
-    if not re.match(r"^[0-9]{100}$",info1):
+    if not re.match(r"^[0-9]$",info1):
           messagebox.showinfo("Error","Please enter valid Book id")
           return
     if not re.match(r"^[A-Za-z\s]+$",info2):
