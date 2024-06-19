@@ -1,3 +1,2 @@
-https://www.geeksforgeeks.org/how-to-clear-the-entry-widget-after-button-press-in-tkinter/
-
-for clear button functionality
+We need to create a csv file named "library.csv".
+This file is used to read and write the data of books available in the library.
